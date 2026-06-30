@@ -138,7 +138,7 @@ Program-database/
 
 ### 👤 Author
 
-**Kiyo** — Teknik Informatika, Universitas Hasanuddin (UNHAS)
+**Yeurekaaa** — Teknik Informatika, Universitas Hasanuddin (UNHAS)
 
 [![GitHub](https://img.shields.io/badge/GitHub-mydJhi07-181717?style=for-the-badge&logo=github)](https://github.com/mydJhi07)
 
