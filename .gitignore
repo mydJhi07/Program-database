@@ -1,4 +1,81 @@
-/krs.csv
-/mahasiswa.csv
-/matakuliah.csv
-/program.exe
+# ════════════════════════════════════════════════════════════
+#  .gitignore untuk Proyek C  /  .gitignore for C Projects
+#  Cocok untuk: Program-database & Konvolusi-Strassen
+# ════════════════════════════════════════════════════════════
+
+# ── Executable / Binary hasil compile ──────────────────────
+*.exe
+*.out
+*.app
+a.out
+program
+konvolusi
+strassen
+matriks_standar
+
+# ── Object & intermediate files ────────────────────────────
+*.o
+*.obj
+*.ko
+*.elf
+*.lo
+*.slo
+
+# ── Precompiled headers ────────────────────────────────────
+*.gch
+*.pch
+
+# ── Library files ──────────────────────────────────────────
+*.a
+*.lib
+*.la
+*.so
+*.so.*
+*.dylib
+*.dll
+
+# ── Debug & crash files ────────────────────────────────────
+*.dSYM/
+*.su
+*.idb
+*.pdb
+*.stackdump
+core
+vgcore.*
+
+# ── Build directories ──────────────────────────────────────
+build/
+bin/
+obj/
+out/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+
+# ── Output hasil program (image processing) ────────────────
+output_blur.png
+output_*.png
+result_*.png
+
+# ── Data runtime (OPSIONAL) ────────────────────────────────
+# Hapus tanda '#' di bawah jika TIDAK ingin file CSV ikut ter-commit:
+# *.csv
+
+# ── IDE / Editor ───────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.code-workspace
+
+# ── File sistem operasi ────────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+Desktop.ini
+
+# ── Lain-lain ──────────────────────────────────────────────
+*.log
+*.tmp
